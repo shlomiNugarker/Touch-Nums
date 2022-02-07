@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Touch-nums</title>
+</head>
+<body onload="renderBoard(2)">
+    <div>
+        <h1>Touch the Numbers</h1>
+
+        <div class="difficulties">
+            <button class="btn easy" onclick="renderBoard(2)">Easy</button>
+            <button class="btn hard" onclick="renderBoard(5)">Hard</button>
+            <button class="btn extreme" onclick="renderBoard(6)">Extreme</button>
+        </div>
+
+        
+            <p>Time: <span class="timer">0.00</span></p>
+        
+        <div class="next-num"></div>
+    
+        <table style="border: 1px solid;">
+            <tbody class="board"></tbody>
+        </table>
+        <button class="restart btn" onclick="restartGame(2)">Restart</button>
+
+    </div>
+   
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

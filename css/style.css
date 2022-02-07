@@ -1,0 +1,52 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(97, 83, 56);
+}
+
+table {
+    margin: auto;
+    background-color: paleturquoise;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}
+
+div {
+    display: table;
+    text-align: center;
+    margin: auto;
+}
+
+.restart {
+    margin-top: 15px;
+    opacity: 0;
+  
+}
+
+.btn {
+  margin: 10px;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  cursor: pointer;
+
+}
+
+.board td {
+    border: 1px solid;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.board td:hover {
+    background-color: pink;
+}
+
+.marked {
+    background-color: lightsalmon;
+}
